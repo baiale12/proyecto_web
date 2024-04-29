@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /* Fuente para toda la página */
+        body {
+            font-family: Verdana, sans-serif; /* Cambia la fuente de toda la página a Verdana o una fuente sans-serif */
+        }
+        header {
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            width: 50px; /* Ajusta el ancho del logo según sea necesario */
+            height: auto; /* Mantiene la proporción del logo */
+        }
+        header h1 {
+            margin-left: 10px; /* Ajusta el margen según sea necesario */
+        }
+        nav {
+            background-color: #333; /* Color de fondo de la barra de navegación */
+            padding: 10px; /* Espacio alrededor del contenido de la barra de navegación */
+        }
+
+        ul {
+            list-style-type: none; /* Eliminar los puntos de la lista */
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline; /* Mostrar los elementos de la lista en línea */
+            margin-right: 20px; /* Espacio entre los elementos de la lista */
+        }
+        a {
+            color: white; /* Color del texto de los enlaces */
+            text-decoration: none; /* Eliminar subrayado de los enlaces */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Subrayado al pasar el mouse sobre los enlaces */
+        }
+        main ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center; /* Centra el contenido horizontalmente */
+        }
+
+        main ul li {
+            display: inline-block; /* Hace que los elementos de la lista sean en línea pero respeten márgenes y rellenos */
+            margin: 10px; /* Espacio entre las imágenes */
+        }
+
+        main ul li img {
+            max-width: 100%; /* Asegura que las imágenes no sean más anchas que su contenedor */
+            height: auto; /* Mantiene la relación de aspecto */
+            display: block; /* Permite aplicar márgenes automáticos para centrar verticalmente */
+            margin: 0 auto; /* Centra las imágenes horizontalmente */
+        }
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between; /* Distribuye los elementos a lo largo del contenedor */
+    }
+
+    .nav-wrapper ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    .nav-wrapper ul li {
+        margin-left: 10px;
+    }
+
+    .nav-wrapper ul li:first-child {
+        margin-left: 310px;
+    }
+
+    .nav-wrapper ul li a {
+        text-decoration: none;
+    }
+
+    .nav-right {
+        margin-left: -10px; /* Empuja el segundo nav hacia la derecha */
+        margin-top: 0; /* Aplica un margen negativo para superponer ligeramente el segundo nav sobre el primero */
+    }
+    </style>
+</head>
+<body>
+    <header>
+    <img src="contreras-logo.png" alt="Logo de la empresa">
+    <h1>Contreras</h1>
+    </header>   
+    <div class="nav-container">
+        <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Acerca.html">Acerca de</a></li>
+            <li><a href="Servicios.html">Servicios</a></li>
+            <li><a href="ubicacion.html">Ubicación</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <nav class="nav-wrapper nav-right">
+            
+        <ul>
+            <li><a href="#Pipelines">Pipelines</a></li>
+            <li><a href="#Plantas compresoras">Plantas compresoras</a></li>
+            <li><a href="#Infraestructura">Infraestructura</a></li>
+        </ul>
+        
+    </nav>
+    </div>
+    <main>
+        <ul>
+            <li>
+                <img src="3.jpg" alt="Gasoducto Gasan"> 
+            </li>
+            <div id="Pipelines"></div>
+            <p> <em><strong>Pipelines</strong></em> <br>
+                <br>
+                Con más de 6.200km de ductos construidos, somos líderes en Sudamérica en el diseño<br>
+                 y ejecución de todo tipo de ductos para el transporte y distribución de petróleo, <br>
+                 hidrocarburos líquidos, gas, agua y concentrado de minerales, <br>
+                 en cualquier condición climática, topográfica, ambiental y social, <br>
+                 bajo las más rigurosas normas internacionales de calidad y seguridad, <br>
+                 tal como lo demuestra nuestro portfolio de clientes. <br>
+                <br></p>
+            <li>
+                <img src="5.jpg" alt="Plantas"> 
+                <div id="Plantas compresoras"></div>
+                <p> <em><strong>Plantas compresoras</strong></em> <br>
+                    <br>
+                    Hemos diseñado y montado más de 202.800 HP en 37 plantas compresoras, <br>
+                    incluyendo la ampliación de instalaciones existentes en operaciones <br>
+                    hasta nuevos proyectos green field, cumpliendo con la exigente normativa <br>
+                    en materia de prevención de accidentes y calidad.<br>
+                    <br></p>
+            <li>
+                <img src="4.jpg" alt="Infraestructura"> 
+                <div id="Infraestructura"></div>
+                <p> <em><strong>Infraestructura</strong></em> <br>
+                    <br>
+                    Ejecutamos la ingeniería y construcción de diferentes obras de infraestructura.<br>
+                    - Acueductos<br>
+                    - Obras de toma,desagües pluviales y cloacales<br>
+                    - Tendido de fibra óptica<br>
+                    - Obras viales y pavimentos urbanos<br>
+                    - Obras ferroviarias<br>
+                    - Plantas potabilizadoras<br>
+                    - Obras complementarias y de mantenimiento en represas<br>
+                    - Instalaciones complementarias en plantas nucleares <br>
+                    - Instalaciones complementarias en aeropuertos. <br>
+                    <br></p>
+        </ul>
+    </main>
+    <footer>
+    <p>Todas las obras de la empresa son certificadas bajo estandard <strong>ISO 9001</strong> </p>
+    <p> <em>Derechos reservados</em> </p>
+    </footer>
+
+</body>
+</html>

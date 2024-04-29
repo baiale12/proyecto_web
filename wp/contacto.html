@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /* Fuente para toda la página */
+        body {
+            font-family: Verdana, sans-serif; /* Cambia la fuente de toda la página a Verdana o una fuente sans-serif */
+        }
+        header {
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            width: 50px; /* Ajusta el ancho del logo según sea necesario */
+            height: auto; /* Mantiene la proporción del logo */
+        }
+        header h1 {
+            margin-left: 10px; /* Ajusta el margen según sea necesario */
+        }
+        nav {
+            background-color: #333; /* Color de fondo de la barra de navegación */
+            padding: 10px; /* Espacio alrededor del contenido de la barra de navegación */
+        }
+
+        ul {
+            list-style-type: none; /* Eliminar los puntos de la lista */
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline; /* Mostrar los elementos de la lista en línea */
+            margin-right: 20px; /* Espacio entre los elementos de la lista */
+        }
+        a {
+            color: white; /* Color del texto de los enlaces */
+            text-decoration: none; /* Eliminar subrayado de los enlaces */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Subrayado al pasar el mouse sobre los enlaces */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        main {
+            width: 80%;
+            margin: 50px auto;
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            margin-top: 20px;
+        }
+        form p {
+            margin-bottom: 10px;
+        }
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <img src="contreras-logo.png" alt="Logo de la empresa">
+    <h1>Contreras</h1>
+    </header>   
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Acerca.html">Acerca de</a></li>
+            <li><a href="Servicios.html">Servicios</a></li>
+            <li><a href="ubicacion.html">Ubicación</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <br>
+        <br>
+        </ul>
+        <strong> Te invitamos a completar el siguiente formulario para contactarte con nosotros</strong><br>
+        
+        <form action="" method="post">
+            <p><em>Cual es tu nombre?</em></p>
+            <label for="Nombre y apellido"></label>
+            <input type="text" name="nombre" id="nombre" placeholder="Completa tu nombre"> <br>
+
+            <p><em>Cuales son tus estudios?</em></p>
+            <select name="Estudios" id="Estudios">
+                <option value="">Primario incompleto</option>
+                <option value="">Primario Completo</option>
+                <option value="">Secundario Completo</option>
+                <option value="">Terciario Completo</option>
+                <option value="">Universitario Completo</option>
+                <option value="">Posgrado Completo</option>
+            </select>
+
+            <p><em>Me interesa trabajar en una obra</em></p>
+            <input type="checkbox" name="" id="">
+
+            <p><em>Me interesa trabajar en una oficina</em></p>
+            <input type="checkbox" name="" id="">
+
+            <p><em><strong>Enviar</strong></em></p>
+            <input type="submit" value="">
+
+            </form>
+        
+    </main>
+    <footer>
+    <p>Todas las obras de la empresa son certificadas bajo estandard <strong>ISO 9001</strong> </p>
+    <p> <em>Derechos reservados</em> </p>
+    </footer>
+
+</body>
